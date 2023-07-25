@@ -1,0 +1,31 @@
+.item {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    display: flex; /* Добавим flex-контейнер для выравнивания элементов в строке */
+     justify-content: space-between; /*Распределит элементы по ширине контейнера */
+     align-items: center; /*Выровняет элементы по вертикали в центре * */
+     border-radius: 6px;
+   }
+  
+  .remove-button {
+    font-size: 14px;
+    padding: 3px 8px; 
+     margin-left: auto;
+ }
+  /* #itemList input {
+    right: 1380px;
+    position: absolute;
+  } */
+
+
+  input[type="radio"] {
+    margin-right: 500px;
+  }
+  ul {
+    padding: 0px;
+  }
+
+
+
